@@ -73,8 +73,6 @@ if (message.content.toLowerCase() === "!seasonreset confirm") {
   );
 }
     });
-  }
-});
 
 client.on("interactionCreate", async interaction => {
   if (!interaction.isStringSelectMenu()) return;
